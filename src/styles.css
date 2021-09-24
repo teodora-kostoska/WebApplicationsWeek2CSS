@@ -19,7 +19,7 @@ th {
 }
 div.menu-layout {
   text-align: center;
-  width: 740px;
+  max-width: 740px;
   margin: auto;
 }
 .comment {
@@ -35,7 +35,7 @@ div.menu-layout {
   text-align: center;
   padding: 1em;
 }
-.element-removal {
+.remove-comment {
   flex: 0.5;
   text-align: center;
   padding: 1em;
