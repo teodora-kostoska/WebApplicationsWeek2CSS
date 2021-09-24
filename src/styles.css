@@ -1,10 +1,10 @@
 body {
   font-family: Garamond;
 }
-h2.header {
+.header {
   font-style: italic;
 }
-table#menu-table {
+#menu-table {
   text-align: left;
   background-color: #f2f2f2;
   width: 100%;
@@ -22,20 +22,20 @@ div.menu-layout {
   width: 740px;
   margin: auto;
 }
-div.comment {
+.comment {
   display: flex;
 }
-div.comment-rating {
+.comment-rating {
   flex: 0.5;
   text-align: center;
   padding: 1em;
 }
-div.comment-text {
+.comment-text {
   flex: 0.5;
   text-align: center;
   padding: 1em;
 }
-button.element-removal {
+.element-removal {
   flex: 0.5;
   text-align: center;
   padding: 1em;
