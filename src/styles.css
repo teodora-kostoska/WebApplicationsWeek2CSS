@@ -1,10 +1,10 @@
 body {
   font-family: Garamond;
 }
-.header {
+h2.header {
   font-style: italic;
 }
-#menu-table {
+table#menu-table {
   text-align: left;
   background-color: #f2f2f2;
   width: 100%;
@@ -17,25 +17,25 @@ th {
   padding-top: 3px;
   padding-bottom: 3px;
 }
-.menu-layout {
+div.menu-layout {
   text-align: center;
   width: 740px;
   margin: auto;
 }
-.comment {
+div.comment {
   display: flex;
 }
-.comment-rating {
+div.comment-rating {
   flex: 0.5;
   text-align: center;
   padding: 1em;
 }
-.comment-text {
+div.comment-text {
   flex: 0.5;
   text-align: center;
   padding: 1em;
 }
-.element-removal {
+button.element-removal {
   flex: 0.5;
   text-align: center;
   padding: 1em;
